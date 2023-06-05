@@ -118,7 +118,7 @@
 
 **메인 화면**
 
-<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/82134668/188096118-5845ec5a-375b-44ca-b6f2-b4e452d73b21.png" alt="image-20230605183010946" />
+<img style="width: 900px; border:1px solid black;" align="left" src="https://user-images.githubusercontent.com/108389588/243327341-8204d9ae-290d-4573-8bf1-b5292271be16.png" alt="image-20230605183010946" />
 
 - 반응형 웹페이지 : 창 사이즈에 따라 메뉴 구성 변화
   - header 메뉴바
@@ -129,7 +129,7 @@
 
 **병원목록 화면**
 
-<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/108389588/188116472-844d414e-1e04-4b3c-bb73-2ea130f5b834.png" alt="image-20230605183042408" />
+<img style="width: 900px; border:1px solid black;" align="left" src="https://user-images.githubusercontent.com/108389588/243327346-871ed808-f7f5-4c5f-8d17-068cea7423a1.png" alt="image-20230605183042408" />
 
 - 제주데이터허브 공공데이터 : 병원리스트 제공
 - 공공데이터의 최신버전으로 정렬하여 불러온 데이터 값의 중복 방지
@@ -138,7 +138,7 @@
 
 **병원정보 및 리뷰 화면**
 
-<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/108389588/188116880-fea01379-2bc5-4474-9480-a1cced23b0cf.png" alt="image-20230605183624738" />
+<img style="width: 900px; border:1px solid black;" align="left" src="https://user-images.githubusercontent.com/108389588/243327350-78a4002a-a990-42fe-b2d7-13868b6e66c5.png" alt="image-20230605183624738" />
 
 - 병원의 디테일 정보 : 병원 이름, 주소, kakao map api를 사용한 주소 마킹, 후기 모음
 - 후기 : 로그인한 사람에 한해서 사용가능, 제목, 내용, 별점이 다 작성되어야 등록 가능
@@ -151,6 +151,6 @@
 
 <br>
 
-<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/94173023/188053009-61351f80-5786-4afb-b72d-7e21c1d2256d.jpg" alt="ERwin" />
+<img style="width: 900px; border:1px solid black;" align="left" src="https://user-images.githubusercontent.com/108389588/243328222-96217866-ebce-47c8-aee7-65298439d6c7.jpg" alt="ERwin" />
 
 <br>
