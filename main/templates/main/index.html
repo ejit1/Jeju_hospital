@@ -1,0 +1,72 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+{% block content %}
+
+<!-- content-area 시작 -->
+<div class="content-area">
+    <!-- jejumap-container 시작 -->
+    <main class="content-area">
+    <section class="jejumap-container">
+        <form action="{% url 'hospitallist' %}">
+            <header class="jejumap-header">
+                <h1 class="main-copy">찾고싶은 병원의 지역을 선택하세요!</h1>
+            </header>
+            <div class="jejumap">
+                <div class="jejumap-items">
+
+                </div>
+            </div>
+            <div class="d-grid gap-2 col-3 mx-auto mt-5">
+                <button type="submit" class="btn search-btn btn-info">
+                    병원 찾기
+                </button>
+            </div>
+        </form>
+        
+    </section>
+    </main>
+    <!-- jejumap-container 끝 -->
+</div>
+
+<script>
+    const dummy = "{{locations|safe}}"
+    var jejumap = dummy
+    jejumap = jejumap.replace('[', '').replace(']','').replaceAll('"','').replaceAll(`'`,'').replaceAll(' ','').split(',')
+    
+    // console.log(jejumap)
+
+    jejumap.forEach((item, idx) => {
+            var l = document.createElement('div');
+            l.setAttribute('class', 'jejumap-item')
+            l.setAttribute('id', `jejumap-item-${idx}`)
+            document.querySelector('.jejumap-items').append(l)
+            var i = document.createElement('input');
+            i.setAttribute('class', 'jejumap-check te-elem')
+            i.setAttribute('type', 'checkbox');
+            i.setAttribute('value', item);
+            i.setAttribute('name', 'locations')
+            i.setAttribute('id', `jejumap-area-${idx+1}`)
+            var j = document.createElement('label');
+            j.setAttribute('for', `jejumap-area-${idx+1}`)
+            j.setAttribute('class', 'jejumap-item-title te-elem')
+            j.textContent= `${item}`
+            var k = document.createElement('div');
+            k.setAttribute('class', 'mapshape')
+            document.querySelector(`#jejumap-item-${idx}`).append(i, k, j)
+        });
+    
+    // 병원정보가 없는지역 disabled하기
+    document.querySelector("#jejumap-area-1").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-3").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-6").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-7").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-8").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-10").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-11").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-12").setAttribute('disabled',true);
+    document.querySelector("#jejumap-area-13").setAttribute('disabled',true);
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+{% endblock %}
