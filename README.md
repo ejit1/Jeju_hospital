@@ -1,6 +1,12 @@
 # 제주도 병원 찾기 및 후기 서비스
 <br>
 
+<img style="width: 900px; border:1px solid black;" align="left" src="https://user-images.githubusercontent.com/108389588/243352097-4cc491f0-28ac-4195-b172-48367d4f6707.gif" alt="2023_06_05_20_34_45_973" />
+
+<br>
+
+<br>
+
 ## 1. 목표와 기능
 
 <br>
