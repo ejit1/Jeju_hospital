@@ -10,9 +10,11 @@
 - 해당 진료과목의 병원을 모아볼 수 있는 웹 서비스
 - 영업을 하지 않는 병원은 노출이 되지 않아 혼선을 줄여주는 웹 서비스
 - 해당 병원의 정보와 전반적인 후기를 모아보는 웹 서비스
-  <br>
+
+<br>
 
 ### 1.2 기능
+
 - 제주데이터허브 "[보건, 복지] 병,의원 정보" 사용 (https://www.jejudatahub.net/data/view/data/859)
 - 제주 지역과 진료과목에 따라 구분된 병원 목록 제공
   (서비스 제공 지역만 버튼 활성화)
@@ -20,10 +22,13 @@
 - kakao map api 사용
 - 로그인, 회원가입
 - 후기 작성
-  <br>
-  <br>
+
+<br>
+
+<br>
 
 ## 2. 개발 환경 및 배포 URL
+
 <br>
 
 ### 2.1 개발 환경
@@ -55,8 +60,10 @@
 ### 2.2 배포 URL
 
 - http://jejuhospital.oreum.icu/
-  <br>
-  <br>
+
+<br>
+
+<br>
 
 ## 3. 프로젝트 구조와 개발 일정
 
@@ -111,25 +118,27 @@
 
 **메인 화면**
 
-<img style="width: 900px" align="left" src="C:\Users\Play\AppData\Roaming\Typora\typora-user-images\image-20230605183010946.png" alt="image-20230605183010946" />
+<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/82134668/188096118-5845ec5a-375b-44ca-b6f2-b4e452d73b21.png" alt="image-20230605183010946" />
 
 - 반응형 웹페이지 : 창 사이즈에 따라 메뉴 구성 변화
   - header 메뉴바
   - content 진료과목 선택창
 - 로그인, 회원가입 : 중복된 아이디, 비밀번호 입력 에러 등등 각 상태마다 alert 창 경고
-  <br>
+
+<br>
 
 **병원목록 화면**
 
-<img style="width: 900px" align="left" src="C:\Users\Play\AppData\Roaming\Typora\typora-user-images\image-20230605183042408.png" alt="image-20230605183042408" />
+<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/108389588/188116472-844d414e-1e04-4b3c-bb73-2ea130f5b834.png" alt="image-20230605183042408" />
 
 - 제주데이터허브 공공데이터 : 병원리스트 제공
 - 공공데이터의 최신버전으로 정렬하여 불러온 데이터 값의 중복 방지
-  <br>
+
+<br>
 
 **병원정보 및 리뷰 화면**
 
-<img style="width: 900px" align="left" src="C:\Users\Play\AppData\Roaming\Typora\typora-user-images\image-20230605183624738.png" alt="image-20230605183624738" />
+<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/108389588/188116880-fea01379-2bc5-4474-9480-a1cced23b0cf.png" alt="image-20230605183624738" />
 
 - 병원의 디테일 정보 : 병원 이름, 주소, kakao map api를 사용한 주소 마킹, 후기 모음
 - 후기 : 로그인한 사람에 한해서 사용가능, 제목, 내용, 별점이 다 작성되어야 등록 가능
@@ -142,6 +151,6 @@
 
 <br>
 
-<img style="width: 900px" align="left" src="https://user-images.githubusercontent.com/94173023/188053009-61351f80-5786-4afb-b72d-7e21c1d2256d.jpg" alt="ERwin" />
+<img style="width: 900px; border:1px solid;" align="left" src="https://user-images.githubusercontent.com/94173023/188053009-61351f80-5786-4afb-b72d-7e21c1d2256d.jpg" alt="ERwin" />
 
 <br>
